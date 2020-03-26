@@ -1,0 +1,208 @@
+@font-face{
+    src: url(../Fonts/Dosis-Regular.ttf);
+    font-family: "Dosis-Regular";
+}
+
+body {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+body {
+    
+    overflow-x: hidden;
+    font-family: "Dosis", sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+    letter-spacing: 3pt;
+    line-height: 18pt;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: #A2A2A2;
+}
+
+.left-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15.3vw;
+    z-index: 1;
+}
+
+.right-menu {
+    width: 15.3vw;
+    z-index: 1;
+}
+
+.hover-dark:hover {
+    color: white;
+}
+
+.hover-light:hover {
+    color: black
+}
+
+.hover-blue:hover {
+    color: #017AFF;
+}
+
+.main-title {
+    position: fixed;
+    top: 0pt;
+    padding-left: 4.3vw;
+    padding-top: 4.3vw;
+    width: 11vw
+}
+
+.about {
+    position: fixed;
+    top: 80pt;
+    padding-left: 4.3vw;
+    padding-top: 6vw;
+    width: 9vw
+}
+
+.main-center {
+    width: 69.4vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.contact {
+    position: fixed;
+    top: 150pt;
+    padding-left: 1.8vw;
+}
+
+.external {
+    position: fixed;
+    top: 250pt;
+    padding-left: 1.8vw;
+    padding-top: 6vw;
+    width: 9vw
+}
+
+h1 {
+    font-size: 17pt;
+    letter-spacing: 9.7pt;
+    padding-bottom: 8pt;
+}
+
+h2 {
+    font-size: 15pt;
+    color: white;
+    padding-bottom: 6pt;
+}
+
+.distribution {
+    position: absolute;
+}
+
+#background-image {
+    z-index: 0;
+}
+
+#botones {
+    z-index: 2;
+}
+
+.boton {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.explore-dark {
+    background-color: #EEEEEE;
+    border-radius: 17pt;
+    display: flex;
+    justify-content: center;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+}
+
+.explore-light {
+    background-color: #252525;
+    border-radius: 17pt;
+    display: flex;
+    justify-content: center;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
+}
+
+.explore-text-dark {
+    font-size: 8pt;
+}
+
+.explore-text-light {
+    font-size: 8pt;
+    color: white;
+}
+
+.description {
+    padding-bottom: 20pt;
+}
+
+.description-light {
+    padding-bottom: 20pt;
+    color: white;
+}
+
+.ux {
+    margin-top: 220pt;
+}
+
+.concept {
+    margin-top: 640pt;
+    margin-right: 115pt;
+}
+
+.fashion {
+    margin-top: 430pt;
+    margin-left: 43pt;
+}
