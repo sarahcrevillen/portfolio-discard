@@ -49,10 +49,13 @@ body {
     letter-spacing: 3pt;
     line-height: 18pt;
 
+}
+
+.desktop {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-}
+} 
 
 a {
     text-decoration: none;
@@ -60,6 +63,7 @@ a {
 }
 
 .left-menu {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -68,6 +72,7 @@ a {
 }
 
 .right-menu {
+    background-color: white;
     width: 15.3vw;
     z-index: 1;
 }
@@ -207,3 +212,66 @@ h2 {
     margin-top: 430pt;
     margin-left: 43pt;
 }
+
+
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        }
+
+    .distribution {
+        position: absolute;
+    }
+
+    .background-image-r {
+        
+        z-index: 0;
+    }
+
+    .boton-responsive {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .ux-r {
+        margin-top: 40vh;
+    }
+
+    .explore-dark {
+        background-color: #EEEEEE;
+        border-radius: 17pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 44px;
+        width: 139px;
+    }
+
+    .explore-text-dark {
+        font-size: 12pt;
+    }
+
+    .description-r {
+        width: 250pt;
+        text-align: center;
+        padding-bottom: 20pt;
+    }
+    
+
+
+@media only screen and (max-width: 415px) {
+    .desktop {display: none;}
+    html {    
+        background: url(../images/inicio-responsive-b.jpg) no-repeat center fixed;     
+        background-size: cover;
+    }
+     }
+
+     @media only screen and (min-width: 416px) {
+    .mobile {display: none;}
+    }

@@ -40,6 +40,7 @@ body {
  to   { opacity: 1; }
 }
 
+
 body {
     
     overflow-x: hidden;
@@ -48,11 +49,13 @@ body {
     font-weight: 100;
     letter-spacing: 3pt;
     line-height: 18pt;
+}
 
+.desktop {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-}
+} 
 
 a {
     text-decoration: none;
@@ -191,4 +194,3 @@ p {
     margin-top: 8vh;
     margin-bottom: 8.8vh;
 }
-
