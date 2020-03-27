@@ -242,7 +242,7 @@ h2 {
         margin-top: 40vh;
     }
 
-    .explore-dark {
+    .explore-dark-r {
         background-color: #EEEEEE;
         border-radius: 17pt;
         display: flex;
@@ -252,7 +252,7 @@ h2 {
         width: 139px;
     }
 
-    .explore-text-dark {
+    .explore-text-dark-r {
         font-size: 12pt;
     }
 
